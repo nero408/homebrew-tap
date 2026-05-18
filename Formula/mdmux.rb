@@ -1,24 +1,24 @@
 class Mdmux < Formula
   desc "Terminal UI for browsing markdown files in a cmux side-panel"
   homepage "https://github.com/nero408/mdmux"
-  version "0.1.2"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/nero408/mdmux/releases/download/v0.1.2/mdmux-v0.1.2-aarch64-apple-darwin.tar.gz"
-      sha256 "da0b1598382d04cc67320b9a45cabf557d596f18b49460577b74e8d1053cd05f"
+      url "https://github.com/nero408/mdmux/releases/download/v0.2.0/mdmux-v0.2.0-aarch64-apple-darwin.tar.gz"
+      sha256 "13e4451d5b196775bd0f26485fa1b96b6bd078686485b4fe3a83f623fe246f1c"
     end
     on_intel do
-      url "https://github.com/nero408/mdmux/releases/download/v0.1.2/mdmux-v0.1.2-x86_64-apple-darwin.tar.gz"
-      sha256 "16e7fbc83def9b477c709fa71e9679863e15f53f2329b38d924b75651f41d4ca"
+      url "https://github.com/nero408/mdmux/releases/download/v0.2.0/mdmux-v0.2.0-x86_64-apple-darwin.tar.gz"
+      sha256 "f4c914d219fd997c6a29a5197252a367ae511492a3c758476062e1a9d1c5f226"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/nero408/mdmux/releases/download/v0.1.2/mdmux-v0.1.2-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "6d94a4be640517b50c2d57db36c6d102f9046263ac232a102eb7f4dcc5d5669c"
+      url "https://github.com/nero408/mdmux/releases/download/v0.2.0/mdmux-v0.2.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "33df0748c792c44a6b67fbebfa6f714320c4ed63b6d54d2a0fcc7be049b067e2"
     end
   end
 
